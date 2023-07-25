@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <!-- viewport scaling size acc to screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+</head>
+<body>
+  <div class="total">
+    <div class="parent">
+        <div class="home">
+           <img  src="Screenshot_20230310_192434.png" alt=""  width="100px" height="100px">
+        </div>
+        <div class="content" style=" position: relative;">
+            <h1>PARROT</h1>
+            <p>Parrots are beautiful medium-sized birds that are green in colour. There are other variants available all over the world, like the grey parrots. Parrots have a bent red beaks with black circles around their neck. Parrots eat fruits, vegetables, seeds, grains, and boiled rice. </p>
+        </div>
+
+    </div>
+    <div class="parent">
+        <div class="home">
+           <img  src="Screenshot_20230310_192434.png" alt=""  width="100px" height="100px">
+        </div>
+        <div class="content" style=" position: relative;">
+            <h1>PARROT</h1>
+            <p>Parrots are beautiful medium-sized birds that are green in colour. There are other variants available all over the world, like the grey parrots. Parrots have a bent red beaks with black circles around their neck. Parrots eat fruits, vegetables, seeds, grains, and boiled rice. </p>
+        </div>
+
+    </div>
+    <div class="parent">
+        <div class="home">
+           <img  src="Screenshot_20230310_192434.png" alt=""  width="100px" height="100px">
+        </div>
+        <div class="content" style=" position: relative;">
+            <h1>PARROT</h1>
+            <p>Parrots are beautiful medium-sized birds that are green in colour. There are other variants available all over the world, like the grey parrots. Parrots have a bent red beaks with black circles around their neck. Parrots eat fruits, vegetables, seeds, grains, and boiled rice. </p>
+        </div>
+
+    </div>
+</div>
+  
+</body>
+<style>
+    .total{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .parent{
+
+        width:800px;
+        height:200px;
+        margin: 40px;
+        border-radius: 20px;
+        text-align: center;
+       border: 3px solid ;
+       display: flex;
+        background-color: rgb(131, 237, 50);
+    }
+   img{
+        border-radius: 100%;
+     
+        position:relative;
+        top:30px;
+      left: 20px;
+      border:3px solid;
+
+   
+    }
+    .content{
+        width: 400px;
+        height:150px;
+    left:100px;
+       top:20px;
+    }
+</style>
+</html>
